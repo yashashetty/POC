@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent"
+  android:background="@drawable/background"
+  android:fillViewport="true">
+  <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+ 
+        <!--  Header Starts-->
+        
+        <LinearLayout android:id="@+id/header"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="5dip"
+    android:paddingBottom="5dip">
+        <!-- Logo Start-->
+        <!-- Logo Ends -->
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_launcher"
+            android:paddingLeft="5dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="@string/app_name"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#4ccbff" />
+
+</LinearLayout>
+<View
+    android:layout_width="fill_parent"
+    android:layout_below="@+id/header"
+    android:layout_height="1dp"
+    android:background="#4ccbff"/>
+        <!--  Header Ends -->
+ 
+        <!-- Footer Start -->
+                   <!-- Place footer next to header to set z-index property to minus value -->
+        <!-- Footer Ends -->
+ 
+        <!-- Login Form -->
+<LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        >
+<EditText
+        android:id="@+id/et_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:hint="@string/user_name"
+        android:textColorHint="@color/blue"
+        android:drawableLeft="@drawable/ic_action_person"
+        android:drawablePadding="8dp"
+        />
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:hint="@string/password"
+        android:textColorHint="@color/blue"
+        android:inputType="textPassword"
+        android:drawableLeft="@drawable/ic_action_accounts"
+        android:drawablePadding="8dp"
+        />
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/log_in"
+        android:background="@drawable/header_gradient"
+       
+        />
+    <ProgressBar
+        android:id="@+id/progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:visibility="gone"
+        />
+     
+        </LinearLayout>
+
+
+        <!-- Login Form Ends -->
+ 
+  </RelativeLayout>
+</ScrollView>

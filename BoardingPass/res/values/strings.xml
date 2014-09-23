@@ -9,5 +9,11 @@
     <string name="user_name">UserName</string>
     <string name="username_error">Username cannot be empty</string>
     <string name="password_error">Password cannot be empty</string>
+    <string name="domestic_flight">Domestic Flight</string>
+    <string name="domestic_flight_subtitle"> Book Domestic Flight</string>
+    <string name="intl_flight">International Flight</string>
+    <string name="intl_flight_subtitle">Book International Flights</string>
+    <string name="bus">Bus Ticket</string>
+    <string name="bus_subtitle">Book Bus Ticket Across India</string>
 
 </resources>

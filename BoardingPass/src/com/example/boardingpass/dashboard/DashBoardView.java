@@ -1,21 +1,24 @@
 package com.example.boardingpass.dashboard;
 
 public interface DashBoardView {
-	 
-	
-	    public void showProgress();
 
-	    public void hideProgress();
+	public void showProgress();
 
-	    public void showMonthlyPass();
+	public void hideProgress();
 
-	    public void enableMonthlyPass();
+	public void onCardClick(int type);
 
-	    public void enableDayPass();
-
-	    public void disableMonthlyPass();
-
-	    public void disableDayPass();
-
-	    public void navigateToHome();
+	/*
+	 * public void showMonthlyPass();
+	 * 
+	 * public void enableMonthlyPass();
+	 * 
+	 * public void enableDayPass();
+	 * 
+	 * public void disableMonthlyPass();
+	 * 
+	 * public void disableDayPass();
+	 * 
+	 * public void navigateToHome();
+	 */
 }

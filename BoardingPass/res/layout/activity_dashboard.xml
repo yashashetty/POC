@@ -18,5 +18,7 @@
              android:stretchMode="columnWidth"
              android:verticalSpacing="3dp"
              card:list_card_layout_resourceID="@layout/carddemo_grid_gplay" />
+      
+      
 
 </LinearLayout>
